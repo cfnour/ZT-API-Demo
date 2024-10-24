@@ -1,0 +1,14 @@
+{
+  "name": "cloudflare-apidemo-pages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "wrangler pages deploy ."
+  },
+  "dependencies": {
+    "wrangler": "^2.0.0"
+  },
+  "author": "",
+  "description": ""
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloudflare Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cloudflare Management</h1>
+        <div class="account-ids">
+            <button id="fetchAccounts">Fetch Account IDs</button>
+            <div id="accountsList"></div>
+        </div>
+        <div class="block-ip">
+            <h2>Block IP Address</h2>
+            <form id="blockIpForm">
+                <label for="ruleName">Rule Name:</label>
+                <input type="text" id="ruleName" name="ruleName" required>
+                <label for="ipAddress">IP Address:</label>
+                <input type="text" id="ipAddress" name="ipAddress" required>
+                <label for="accountSelect">Account ID:</label>
+                <select id="accountSelect" name="accountSelect" required>
+                    <option value="" disabled selected>Select Account</option>
+                </select>
+                <button type="submit">Block IP</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
