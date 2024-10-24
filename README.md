@@ -5,6 +5,8 @@ UI Interface:
 Fetch Account IDs (First API call)
 Create GW rule (Rule Name + IP address to block + Select Account ID (fetched in step 1)
 
+![image](https://github.com/user-attachments/assets/834e44fb-2899-41b6-9a77-e643068dbea6)
+![image](https://github.com/user-attachments/assets/31b06e5f-3905-494c-bf27-17b1efc943d0)
 ![image](https://github.com/user-attachments/assets/d201763b-13c4-438f-9950-15166e23e741)
 
 
