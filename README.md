@@ -12,7 +12,7 @@ Create GW rule (Rule Name + IP address to block + Select Account ID (fetched in 
 
 
 
-1. Within script.js change the domain name to your own domain
+1. In script.js change the domain name to your own domain
 2. Add to your Pages App build the environment variables
 3. wrangler.toml → Account ID: 
       account_id = "##ACCOUNT_ID##"
